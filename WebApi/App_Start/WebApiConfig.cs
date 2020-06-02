@@ -41,6 +41,7 @@ namespace WebApi
 
                 return null;
             });
+
             config.Filters.Add(new ValidationActionFilterAttribute());
         }
     }
