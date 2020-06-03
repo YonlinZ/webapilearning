@@ -130,6 +130,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="Controllers\BookController.cs" />
+    <Compile Include="Extensions\CustomDelegatingHandler\CustomDelegatingHandler1.cs" />
     <Compile Include="Extensions\Filter\ValidationActionFilterAttribute.cs" />
     <Compile Include="Extensions\ModelBinding\BookParameterBindingAttribute.cs" />
     <Compile Include="Models\CustomBookParameterBinding.cs" />
