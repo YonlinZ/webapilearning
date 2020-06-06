@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace Library.API.Services
 {
-    public interface IRepositoryBase2<T, TId>
+    public interface IRepositoryWrapper
     {
-        Task<T> GetByIdAsync(TId id);
-        Task<bool> IsExistAsync(TId id);
+        IBookRepository Book { get; }
+        IAuthorRepository Author { get; }
     }
 }

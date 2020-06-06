@@ -20,7 +20,7 @@ namespace Library.API.Entities
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            //modelBuilder.SeedData();
+            modelBuilder.SeedData();
         }
     }
 
